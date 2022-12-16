@@ -18,7 +18,7 @@ body
     display: flex
     justify-content: center
     align-items: center
-    height: 100vh
+    min-height: 100vh
 
 .header
     color: $font-color
@@ -86,4 +86,10 @@ body
             cursor: pointer
 
 
-
+@media screen and ( max-width: 514px  )
+    .clock
+        width: 100%
+        padding: 0.2rem
+    .header
+        width: 100%
+    
