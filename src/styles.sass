@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap')
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
+
+$font-color: #adbaca
+
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+html
+    font-size: 14px
+    font-family: 'Montserrat', sans-serif
+
+body
+    background: linear-gradient(to right ,#162033, #223954)
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+
+.header
+    color: $font-color
+    &__title
+        text-align: center
+        font-size: 3rem
+    &__lengths
+        margin-top: 2rem
+        margin-bottom: 2rem
+        display: flex
+        justify-content: space-around
+        align-items: center
+    &__box
+        text-align: center
+        display: flex
+        justify-content: center
+        flex-direction: column
+        &> span
+            font-size: 1.5rem
+        &> div
+            display: flex
+            justify-content: center
+            align-items: center
+            gap: 1rem
+            margin-top: 1rem
+            &> i
+                font-size: 2rem
+                cursor: pointer
+            &> span
+                font-size: 1.8rem
+
+
+.clock
+    width: 500px
+    height: 300px
+    background: #243b55
+    border-radius: 3rem
+    padding: 2rem
+    &__title
+        color: $font-color
+        text-transform: uppercase
+        font-weight: 400
+        margin-left: auto
+        margin-right: auto
+        text-align: center
+        display: block
+        font-size: 3rem
+    &__timer
+        font-size: 8rem
+        margin-top: 2rem
+        color: $font-color
+        display: block
+        margin-left: auto
+        margin-right: auto
+        text-align: center
+    &__control
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 1rem
+        gap: 1rem
+        color: $font-color
+        &> i
+            font-size: 3rem
+            cursor: pointer
+
+
+
